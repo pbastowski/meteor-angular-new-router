@@ -1,9 +1,5 @@
 {
   "name": "angular-new-router",
-  "version": "0.0.1",
-  "authors": [
-    "Paul Bastowski"
-  ],
   "license": "MIT",
   "ignore": [
     "**/.*",

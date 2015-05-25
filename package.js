@@ -1,6 +1,6 @@
 Package.describe({
   name: 'pbastowski:angular-new-router',
-  version: '0.0.1',
+  version: '0.0.2',
   // Brief, one-line summary of the package.
   summary: 'Packaged up angular-new-router directly from bower',
   // URL to the Git repository containing the source code for this package.
