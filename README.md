@@ -2,7 +2,7 @@
 
 Meteor install
 
-    meter add pbastowski:angular-new-router
+    meteor add pbastowski:angular-new-router
 
 To develop type 
 
