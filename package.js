@@ -1,18 +1,20 @@
 Package.describe({
   name: 'pbastowski:angular-new-router',
-  version: '0.0.2',
-  // Brief, one-line summary of the package.
-  summary: 'Packaged up angular-new-router directly from bower',
-  // URL to the Git repository containing the source code for this package.
+  version: '0.0.3',
+  summary: 'Packaged up angular-new-router directly from npm',
   git: 'https://github.com/angular/router',
-  // By default, Meteor will default to using README.md for documentation.
-  // To avoid submitting documentation, set this field to null.
   documentation: 'README.md'
 });
 
+var npmDeps = {
+    "angular-new-router": "0.5.3",
+};
+
+Npm.depends(npmDeps);
+
 Package.onUse(function(api) {
   api.versionsFrom('1.1.0.2');
-  api.addFiles('./bower_components/angular-new-router/dist/router.es5.min.js', ['client']);
+  api.addFiles('.npm/package/node_modules/angular-new-router/dist/router.es5.js', ['client']);
 });
 
 Package.onTest(function(api) {
